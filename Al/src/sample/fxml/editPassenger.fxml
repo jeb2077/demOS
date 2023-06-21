@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="490.0" style="-fx-background-color: #282D3E;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.AddPassengerController">
+    <children>
+
+        <TextField fx:id="editFirstname" layoutX="187.0" layoutY="69.0" style="-fx-background-color: #e8e8e8;" />
+        <Label layoutX="37.0" layoutY="73.0" text="Имя:" textFill="#e49561" />
+        <Button fx:id="editAddButton" layoutX="101.0" layoutY="484.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="300.0" style="-fx-background-color: #E49561;" text="Изменить" />
+        <Label fx:id="editErrorLabel" layoutX="77.0" layoutY="400.0" prefHeight="36.0" prefWidth="300.0" textFill="WHITE" />
+        <TextField fx:id="editLastname" layoutX="187.0" layoutY="118.0" style="-fx-background-color: #e8e8e8;" />
+        <Label layoutX="37.0" layoutY="122.0" text="Фамиилия:" textFill="#e49561" />
+        <JFXTextField fx:id="editPassportnumber" layoutX="187.0" layoutY="172.0" style="-fx-background-color: #e8e8e8;" />
+        <Label layoutX="37.0" layoutY="176.0" prefHeight="17.0" prefWidth="104.0" text="Номер паспорта:" textFill="#e49561" />
+        <TextField fx:id="editFlightnumber" layoutX="187.0" layoutY="225.0" style="-fx-background-color: #e8e8e8;" />
+        <Label layoutX="37.0" layoutY="229.0" text="Номер рейса:" textFill="#e49561" />
+        <TextField fx:id="editDeparturedate" layoutX="187.0" layoutY="275.0" style="-fx-background-color: #e8e8e8;" />
+        <TextField fx:id="editDeparturetime" layoutX="187.0" layoutY="320.0" style="-fx-background-color: #e8e8e8;" />
+        <Label layoutX="37.0" layoutY="324.0" text="Время вылета:" textFill="#e49561" />
+        <Label layoutX="43.0" layoutY="279.0" text="Дата рейса:" textFill="#e49561" />
+      <TextField fx:id="EditSeat" layoutX="187.0" layoutY="368.0" style="-fx-background-color: #e8e8e8;" />
+      <Label layoutX="39.0" layoutY="372.0" text="Сел:" textFill="#e49561" />
+    </children>
+</Pane>

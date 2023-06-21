@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="179.0" prefWidth="371.0" style="-fx-background-color: #282D3E;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Auth">
+    <children>
+        <Label layoutX="50.0" layoutY="43.0" text="Логин:" textFill="#e49561" />
+        <TextField fx:id="login" layoutX="110.0" layoutY="39.0" prefHeight="25.0" prefWidth="209.0" />
+        <Label layoutX="50.0" layoutY="82.0" text="Пароль:" textFill="#e49561" />
+        <PasswordField fx:id="password" layoutX="110.0" layoutY="77.0" prefHeight="25.0" prefWidth="209.0" />
+        <Button layoutX="50.0" layoutY="140.0" mnemonicParsing="false" onAction="#loginClick" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: #E49561;" text="Войти" />
+        <Button fx:id="cancelButton" layoutX="191.0" layoutY="140.0" mnemonicParsing="false" onAction="#cancelClick" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: #E49561;" text="Отмена" />
+        <Label fx:id="errorLabel" layoutX="50.0" layoutY="112.0" textFill="WHITE" />
+
+    </children>
+</Pane>
