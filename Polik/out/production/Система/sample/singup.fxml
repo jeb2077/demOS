@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="515.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SingController">
+    <children>
+        <Label layoutX="113.0" layoutY="82.0" prefHeight="31.0" prefWidth="97.0" text="Username">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Label>
+        <Label layoutX="113.0" layoutY="128.0" prefHeight="32.0" prefWidth="97.0" text="Password">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <TextField fx:id="tf_user" layoutX="232.0" layoutY="85.0" />
+        <TextField fx:id="tf_pass" layoutX="232.0" layoutY="132.0" />
+        <Button fx:id="Sing_button" layoutX="215.0" layoutY="236.0" mnemonicParsing="false" text="Sing up">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="Log_button" layoutX="267.0" layoutY="293.0" mnemonicParsing="false" text="Log in" />
+        <Label layoutX="180.0" layoutY="293.0" prefHeight="25.0" prefWidth="70.0" text="You user!">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+      <Label layoutX="126.0" layoutY="14.0" text="Авторизация">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Id_Doctor" layoutX="126.0" layoutY="191.0" mnemonicParsing="false" text="Доктор">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="id_Regist" layoutX="249.0" layoutY="191.0" mnemonicParsing="false" text="Регистратура">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </RadioButton>
+    </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="485.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Doctor.Doc.Doctor">
+   <children>
+      <Label layoutX="184.0" layoutY="14.0" text="Доктор">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="AmbCard" layoutX="140.0" layoutY="79.0" mnemonicParsing="false" text="Амбулаторная карта">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Cpravka" layoutX="139.0" layoutY="136.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="217.0" text="Справка">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Vipiska" layoutX="139.0" layoutY="200.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="217.0" text="Выписка">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Othet" layoutX="139.0" layoutY="259.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="217.0" text="Отчет по диагнозам">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back" layoutX="217.0" layoutY="334.0" mnemonicParsing="false" text="Назад" />
+   </children>
+</AnchorPane>

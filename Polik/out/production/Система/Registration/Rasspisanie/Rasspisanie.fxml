@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="783.0" prefWidth="671.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Registration.Rasspisanie">
+   <children>
+      <Label layoutX="213.0" layoutY="14.0" text="Рассписание врачей">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tv_rasspisanie" layoutX="14.0" layoutY="59.0" prefHeight="658.0" prefWidth="638.0">
+        <columns>
+          <TableColumn fx:id="tc_fam" prefWidth="75.0" text="Фамилия" />
+            <TableColumn fx:id="tc_name" prefWidth="48.0" text="Имя" />
+            <TableColumn fx:id="tc_otches" prefWidth="78.0" text="Отчество" />
+          <TableColumn fx:id="tc_cab" prefWidth="71.0" text="Кабинет" />
+            <TableColumn fx:id="tc_startwork" prefWidth="144.0" text="Время начала работы" />
+            <TableColumn fx:id="tc_finwork" minWidth="0.0" prefWidth="212.0" text="Время завершения работы" />
+            <TableColumn prefWidth="75.0" />
+        </columns>
+      </TableView>
+      <Button fx:id="tb_exit" layoutX="14.0" layoutY="737.0" mnemonicParsing="false" text="Назад" />
+   </children>
+</AnchorPane>
